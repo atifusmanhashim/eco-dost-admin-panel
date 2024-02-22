@@ -1,4 +1,0 @@
-commands:
-  update_package:
-    command: |
-      php artisan passport:install
