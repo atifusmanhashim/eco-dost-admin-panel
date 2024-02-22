@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    }
+
+    a {
+	text-decoration: none;
+    }
+
+    @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap');
+
+    .layout-wrapper {
+	display: flex;
+	position: relative;
+    }
+
+
+    /* Sidebar CSS */
+    .layout-wrapper .sidebar {
+	max-width: 403px;
+	width: 100%;
+	background-color: #13A64B;
+	min-height: 100vh;
+	position: sticky;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	padding: 30px 36px;
+    }
+
+    .layout-wrapper .right-div {
+	flex: 1;
+    }
+
+    .sidebar .logo-div {
+	margin-bottom: 30px;
+	max-width: 270px;
+	width: 100%;
+    }
+
+    .sidebar .sidebar-links-outer-div {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+	padding: 30px 42px;
+	border-radius: 20px;
+	transition: 0.2s ease all;
+    }
+
+    .sidebar .sidebar-links-outer-div .sidebar-link {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+    }
+
+    .sidebar .sidebar-links-outer-div .sidebar-link .sidebar-link-text {
+	color: white;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	line-height: 33px;
+
+    }
+    .sidebar .sidebar-links-outer-div .sidebar-link .sidebar-link-text a {
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 33px;
+
+        }
+
+    .sidebar .sidebar-links-outer-div:hover {
+	background-color: #222222;
+    }
+
+    /* SIdebaer ends */
+
+
+    /* Header CSS */
+    .header-div {
+	background-color: #E9E9E9;
+	width: 100%;
+	padding: 30px 50px
+    }
+
+    .header-div .header-inner-div {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 16px;
+    }
+
+    .header-div .header-inner-div .dropdown a {
+	text-decoration: none;
+    }
+
+    .header-div .header-inner-div .dropdown a.dropdown-name {
+	text-decoration: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 31px;
+	font-weight: 500;
+	line-height: 36px;
+	color: black;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+    }
+
+    .header-div .header-inner-div .dropdown a::after {
+	display: none;
+    }
+
+    .header-div .header-inner-div .dropdown a img {
+	max-width: 47px;
+	width: 100%;
+    }
+
+    /* Header Ends */
